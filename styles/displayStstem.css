@@ -1,0 +1,42 @@
+
+.col-start-2 {
+    grid-column-start: 2;
+}
+.col-start-3 {
+    grid-column-start: 3;
+}
+.col-start-4 {
+    grid-column-start: 4;
+}
+
+
+
+.col-end-12 {
+    grid-column-end: 12;
+}
+
+.ml-230{
+    margin-left: 230px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+.z-0 {
+    z-index: 0;
+}
+.z-5 {
+    z-index: 5;
+}
+

@@ -4,10 +4,27 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+	/>
+
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="./styles/displayStstem.css">
+	<link rel="stylesheet" href="./styles/swiper.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	
+	<script defer type="module" src="./index.js"></script>
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
+		<!-- <style>
 			.maketforfigma{
 				flex: 0 0 auto;
 				/*background: #303b44;*/
@@ -72,11 +89,297 @@
 					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
 				</p>
 			</div>
-		</div>
+		</div> -->
 		<!-- Конец -->
 
-		<div class="main">
-			В данном блоке размещается верстка
+		<div class="main w-100%">
+
+			<div class="wrapper-with-background relative z-0">
+				<div class="container">
+
+
+					<header class="header">
+
+						<a href="#" class="logo">QWERy</a>
+						<nav class="nav">
+							<a href="#information">Information</a>
+							<a href="#about">About Us</a>
+							<a href="#culture">Culture</a>
+						</nav>
+						<form class="search">
+							<img src="./images/coolicon.svg" alt="search">
+							<input type="text" placeholder="Search">
+						</form>
+					</header>
+
+					<section class="first__block">
+
+						<div class="social">
+							<span>Follow us</span>
+
+							<div class="social__links">
+								<a href="">
+									<img src="./images/instagram.svg" alt="istagram">
+
+								</a>
+								<a href="">
+									<img src="./images/twitter.svg" alt="twitter">
+
+								</a>
+								<a href="">
+									<img src="./images/Facebook.svg" alt="facebook">
+
+								</a>
+							</div>
+						</div>
+
+						<div class="first__block__content">
+							<div class="firts__block__promo">
+								<div class="accent-subtitle text-orange">
+									<div class="bg-orange"></div>
+									<span class="text-orange bold">explore the Nature Beauty</span>
+								</div>
+								<div>
+
+									<h2 class="first__block__promo-title">
+										<span class="bold size-96">Discover</span>
+										<br>
+										<span class="size-88">Wonderful Indonesia</span>
+									</h2>
+
+									<a href="#" class=" block scroll-down">
+										Scroll Down
+										<img src="./images/scroll-down.svg"/>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div></div>
+					</section>
+
+					<hr>
+				</div>
+
+				<div class="wrapper__shadow-down"></div>
+			</div>
+
+
+			<div class=" main__content__block relative z-5 wrapper">
+				<a name="information"></a>
+				<div class="container">
+
+				
+				<section class="column-12">
+					<div class="holiday flex justify-between items-center content">
+						<img src="./images/image1.jpg" alt="East Nusa Tenggare"/>
+
+						<div class="content-case ml-230">
+							<div class="accent-subtitle">
+								<div class="bg-accent-color"></div>
+								<span class="text-accent-color">EAST nUSA TENGGARA</span>
+							</div>
+
+							<h4 class="content-case-title">
+								Have you enjoyed your holiday?
+							</h4>
+
+							<p class="content-case-text">
+								You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.
+							</p>
+
+							<a class="text-accent-color flex flex-row read-more" href="#">
+								read more
+								<svg class="read-more-svg" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="w-100\% mt-250">
+
+				
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide slide-img1 flex items-end">
+
+									<div class="content-case slider__content-shadow" style="text-align: center; width: 100%; padding: 0px 100px;">
+										<div class="flex justify-center items-center">
+
+											<div class="accent-subtitle flex justify-center items-center">
+												<div class="bg-accent-color"></div>
+												<span class="text-accent-color block">EAST nUSA TENGGARA</span>
+												<div class="bg-accent-color" style="margin-left: 32px; margin-right: 0px;"></div>
+											</div>
+										</div>
+			
+										<h4 class="content-case-title">
+											Have you enjoyed your holiday?
+										</h4>
+			
+										<p class="content-case-text">
+											You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.
+										</p>
+			
+										<a class="text-accent-color flex flex-row justify-center read-more" href="#">
+											read more
+											<svg class="read-more-svg" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+											</svg>
+										</a>
+									</div>
+
+							</div>
+							<div class="swiper-slide slide slide-img1 flex items-end">
+
+								<div class="content-case slider__content-shadow" style="text-align: center; width: 100%; padding: 0px 100px;">
+									<div class="flex justify-center items-center">
+
+										<div class="accent-subtitle flex justify-center items-center">
+											<div class="bg-accent-color"></div>
+											<span class="text-accent-color block">EAST nUSA TENGGARA</span>
+											<div class="bg-accent-color" style="margin-left: 32px; margin-right: 0px;"></div>
+										</div>
+									</div>
+		
+									<h4 class="content-case-title">
+										Have you enjoyed your holiday?
+									</h4>
+		
+									<p class="content-case-text">
+										You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.
+									</p>
+		
+									<a class="text-accent-color flex flex-row justify-center read-more" href="#">
+										read more
+										<svg class="read-more-svg" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+										</svg>
+									</a>
+								</div>
+
+							</div>
+							
+		
+						</div>
+
+						<!-- <div class="swiper-pagination"></div> -->
+					
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+				</section>
+
+				<section class="column-12 mt-227">
+					<a name="culture"></a>
+					<div class="holiday flex justify-between items-center content">
+						<div class="content-case w-632">
+							<div class="accent-subtitle">
+								<div class="bg-accent-color"></div>
+								<span class="text-accent-color">INDONESIAN CULTURE</span>
+							</div>
+
+							<h4 class="content-case-title w-555">
+								Our culture here is very friendly to people
+							</h4>
+
+							<p class="content-case-text font-wight-400">
+								known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.
+							</p>
+
+							<a class="text-accent-color flex flex-row read-more" href="#">
+								read more
+								<svg class="read-more-svg" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+								</svg>
+							</a>
+						</div>
+
+						<img src="./images/image3.jpg" alt="Indonesian culture"/>
+
+					</div>
+				</section>
+
+				<footer class="column-12 mt-227">
+
+					<div class="flex justify-between items-center col-start-2 col-end-12 pb-55 border-bottom">
+						<p class="bold text-48">QWERy</p>
+						<div class="flex items-center gap-55">
+							<p class="font-wight-400 text-22">Ready to explore?</p>
+							<a class="button" href="#">Get started</a>
+						</div>
+					</div>
+
+					<div class="flex justify-between items-start col-start-2 col-end-12">
+						<div class="w-400">
+							<p class="bold text-36">Let's go on vacation, Make your day</p>
+
+							<form class="flex items-end mt-50">
+								<input type="email" class="input" placeholder="Email address" style="width: 230px;">
+								<button class="action-button" style="border-bottom: 2px solid #979797;">
+									<img src="./images/actionButton.svg" alt="Send e-mail address">
+								</button>
+							</form>
+						</div>
+
+						<div class="flex gap-160">
+							<div class="footer__colomn">
+								<p>Services</p>
+								<a href="#">Email Marketing</a>
+								<a href="#">Campaigns</a>
+								<a href="#">Branding</a>
+								<a href="#">Offline</a>
+							</div>
+							<div class="footer__colomn">
+								<p>About</p>
+								<a href="#">Our Story</a>
+								<a href="#">Benefits</a>
+								<a href="#">Team</a>
+								<a href="#">Careers</a>
+							</div>
+							<div class="footer__colomn">
+								<p>Help</p>
+								<a href="#">FAQs</a>
+								<a href="#">Contact Us</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="flex justify-between items-start col-start-2 col-end-12 mt-100">
+						<div>
+							<a href="" class="mr-85">Terms & Conditions</a>
+							<a href="">Privacy Policy</a>
+						</div>
+
+						<div class="social__links flex gap-51">
+							<a href="">
+								<img src="./images/instagram.svg" alt="istagram">
+
+							</a>
+							<a href="">
+								<img src="./images/twitter.svg" alt="twitter">
+
+							</a>
+							<a href="">
+								<img src="./images/Facebook.svg" alt="facebook">
+
+							</a>
+						</div>
+					</div>
+
+					<div class="flex justify-center col-start-2 col-end-12 text-18 mt-156 mb-118">
+						Copyright 2021 QWERy
+					</div>
+
+				</footer>
+
+			</div>
+			</div>
 		</div>
 </body>
 </html>
